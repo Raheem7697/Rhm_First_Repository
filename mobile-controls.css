@@ -1,0 +1,21 @@
+@media (max-width: 650px) {
+  .next-sidebar {
+    grid-template-columns: 34px 47px 34px;
+  }
+
+  .swap-button {
+    display: block;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 3px;
+    font-size: 19px;
+  }
+
+  .swap-button span {
+    display: none;
+  }
+
+  .shoot-button {
+    grid-column: 1 / 4;
+  }
+}
